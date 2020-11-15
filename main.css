@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(180, 156, 21);
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 10% 0;
+}
+
+h1{
+    color: rgb(238, 227, 227);
+    width: max-content;
+    margin: auto;
+    padding-bottom: 3%;
+    font-weight: bolder;
+    font-size:  xx-large;
+}
+
+.content{
+    width: 70%;
+    background-color: rgb(223, 221, 221);
+    min-height: 100px;
+    margin: auto;
+    border-top-right-radius: 50px;
+    padding: 32px;
+}
+ul{
+    list-style-type: none;
+}
+ul li span:nth-child(1){
+    font-weight: bold;
+}
+ul li span:nth-child(2){
+    padding: 2px;
+    color: rgba(58, 57, 57, 0.973);
+}
+ul li{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 0;
+    border-bottom: 2px solid rgb(160, 159, 159);
+    height: max-content;
+}
+
+#cafe-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#cafe-form p{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: max-content;
+    margin-right: 32px;
+    width: 100%;
+}
+input{
+    width: 100%;
+    padding: 6px;
+    border: 1px solid blue;
+}
+button{
+    width: 50%;
+    height: min-content;
+    padding: 6px;
+    margin-bottom: -18px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+input:focus{
+    border: 1px solid green;
+}
+li div{
+    display: block;
+    margin-left: 98%;
+    margin-top: -32px;
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+}
+li div:hover{
+    cursor: pointer;
+    color: red;
+}
